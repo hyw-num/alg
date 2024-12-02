@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="第 1 页" id="kV7FExK0bLEReNMpNEUY">
-    <mxGraphModel>
+    <mxGraphModel dx="358" dy="325" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;fontFamily=宋体;fontStyle=1" edge="1" parent="1" source="fWi6bcqSee7aH8q4-fqI-1" target="fWi6bcqSee7aH8q4-fqI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-6" value="lantency" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=宋体;fontStyle=1" vertex="1" connectable="0" parent="fWi6bcqSee7aH8q4-fqI-3">
+          <mxGeometry x="-0.0737" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;fontFamily=宋体;fontStyle=1" edge="1" parent="1" source="fWi6bcqSee7aH8q4-fqI-1" target="fWi6bcqSee7aH8q4-fqI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-7" value="skew" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=宋体;fontStyle=1" vertex="1" connectable="0" parent="fWi6bcqSee7aH8q4-fqI-5">
+          <mxGeometry x="-0.1313" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-1" value="聚类" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="116" y="94" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fWi6bcqSee7aH8q4-fqI-2" target="fWi6bcqSee7aH8q4-fqI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-2" value="基于负载建立拓扑树" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fontStyle=1;strokeWidth=3;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="21" y="251" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fWi6bcqSee7aH8q4-fqI-4" target="fWi6bcqSee7aH8q4-fqI-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="194.5519278390068" y="369.52414594377797" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-4" value="基于极差建立拓扑树" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fontStyle=1;strokeWidth=3;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="206" y="251" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-9" value="基于拓扑序进行后调整" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="113" y="431" width="126" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
