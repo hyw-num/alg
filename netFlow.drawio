@@ -1,11 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="第 1 页" id="kV7FExK0bLEReNMpNEUY">
-    <mxGraphModel dx="901" dy="455" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1152" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fWi6bcqSee7aH8q4-fqI-12" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;fontColor=#333333;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="-9.5" y="75" width="363" height="432" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeWidth=3;strokeColor=#82b366;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-329" y="368" width="721" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeWidth=3;strokeColor=#82b366;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="-327" y="95" width="720" height="250" as="geometry" />
         </mxCell>
         <mxCell id="fWi6bcqSee7aH8q4-fqI-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;startSize=8;endSize=8;fontFamily=宋体;fontStyle=1" edge="1" parent="1" source="fWi6bcqSee7aH8q4-fqI-1" target="fWi6bcqSee7aH8q4-fqI-2">
           <mxGeometry relative="1" as="geometry" />
@@ -42,6 +48,15 @@
         </mxCell>
         <mxCell id="fWi6bcqSee7aH8q4-fqI-9" value="基于拓扑序进行后调整" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="109" y="386" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-15" value="自底向上的拓扑树的建立" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-293" y="200" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-16" value="自顶向下的拓扑树的调整" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=宋体;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-293" y="404" width="257" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fWi6bcqSee7aH8q4-fqI-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="fWi6bcqSee7aH8q4-fqI-16" target="fWi6bcqSee7aH8q4-fqI-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
